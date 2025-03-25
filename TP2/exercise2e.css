@@ -1,0 +1,20 @@
+#div_1 {
+    border: 1px solid black;
+    padding: 9px;
+}
+#div_2 img {
+    float: left;
+    margin-right: 11px;
+}
+#div_3 {
+    background-color: dimgrey;
+    padding: 10px;
+}
+.highlight {
+    position: fixed;
+    top: 129px;
+    left: 129px;
+    width: 405px;
+    height: 405px;
+    z-index: 10;
+}
