@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Application</title>
+</head>
+<body>
+    <div id="buttonBar">
+        <button id="BUTSHOW" type="button" onclick="showText()">Show JSON</button>
+        <button id="BUT_ADD" type="button" onclick="showAdd()">Add Element</button>
+        <button id="REMOVE" type="button" onclick="showRemove()">Remove Element</button>
+        <button id="CLEAR" type="button" onclick="clearData()">Clear JSON</button>
+        <button id="RESTORE" type="button" onclick="restoreData()">Restore JSON</button>
+        <button id="PIEB" type="button" onclick="showPieChart()">Show Pie Chart</button>
+        <button id="LOCAL_PIE" type="button" onclick="showLocalPieChart()">Show Local Pie Chart</button>
+    </div>
+    <form style="visibility:hidden" id="addForm">
+        <input type="text" id="titleTF" placeholder="title">
+        <input type="number" id="valueTF" placeholder="value">
+        <input type="text" id="colorTF" placeholder="color">
+        <button id="SUBMITADD" type="button">Add</button>
+      </form>
+      
+      <form style="visibility:hidden" id="removeForm">
+        <input type="number" id="indexTF" placeholder="index">
+        <button id="DOREM" type="button">Remove</button>
+      </form>
+    <div id="MAINSHOW"></div>
+    <div id="pieDiv"></div>
+    <script src="test2.js" defer></script>
+</body>
+</html>
