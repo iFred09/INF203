@@ -1,0 +1,6 @@
+curl -X PUT http://localhost:8000/pubref/AA:PAA-17 \
+-H "Content-Type: application/json" \
+-d '{
+    "title": "Detection of ruptures in spatial relationships in video sequences based on log-likelihood ratio (unsupervised)",
+    "year": "2022"
+}'
